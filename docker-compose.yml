@@ -1,0 +1,21 @@
+version: '3.1'
+
+services:
+    nginx-tor-proxy:
+        build: .
+        restart: always
+        network_mode: bridge
+        container_name: nginx-tor-proxy
+        volumes:
+            - ./web:/web
+            - ./nginx:/nginx
+        links:
+            - example-app
+
+    example-app:
+        image: mendhak/http-https-echo
+        restart: always
+        network_mode: bridge
+        container_name: example-app
+        ports:
+            - 8000:80

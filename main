@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo ''
+echo 'NGINX TOR PROXY'
+echo ''
+
+echo '* Initializing local clock'
+ntpdate -B -q 0.debian.pool.ntp.org
+echo '* Starting tor'
+tor -f /etc/tor/torrc &
+echo '* Starting nginx'
+nginx &
+sleep infinity
