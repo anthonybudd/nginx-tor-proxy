@@ -1,5 +1,5 @@
 <p  align="center">
-<img src="https://raw.githubusercontent.com/anthonybudd/tor-nginx-proxy/master/docs/img/header.png" width="500" alt="Header">
+<img src="https://github.com/anthonybudd/nginx-tor-proxy/raw/master/docs/img/header.png" width="500" alt="Header">
 </p>
 
 # NGINX TOR PROXY
