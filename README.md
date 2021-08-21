@@ -1,8 +1,8 @@
-<p  align="center">
-<img src="https://github.com/anthonybudd/nginx-tor-proxy/raw/master/docs/img/header.png" width="500" alt="Header">
-</p>
-
 # NGINX TOR PROXY
+
+<p  align="center">
+<img src="https://github.com/anthonybudd/nginx-tor-proxy/raw/master/docs/img/header.png" width="300" alt="Header">
+</p>
 
 NGINX Tor Proxy is a simple container that exposes your containers with a custom Tor v3 Onion address.
 
